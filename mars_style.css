@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	border: 5px hidden black;
+}
+
+ @font-face {
+ 	font-family: Montserrat; src: url('fonts/Montserrat-Regular.ttf');
+ }
+
+ .cover {
+ 	background-color: #e63900;
+ 	width: 100%;
+ 	position: fixed;
+ 	left: 0;
+ 	top: 0;
+ 	height: 100%;
+ }
+
+ .cover img {
+ 	position: relative;
+ 	margin: 0px 300px;
+ 	z-index: 1;
+ }
+
+ #title {
+ 	font-family: Montserrat;
+ 	font-size: 300px;
+ 	color: #661a00;
+ 	width: 2em;
+ 	margin: 10px auto;
+ }
+
+ .first {
+ 	width: 100%;
+ 	height: 100%;
+ 	background: url(images/mars1.jpg) no-repeat left center;
+ 	background-size: cover;
+ 	position: absolute;
+ 	left: 0;
+ 	top: 100%;
+ }
+
+ .navigation {
+ 	background-color: rgba(255, 255, 255, 0.7);
+  	position: relative;
+ 	top: 0;
+ 	height: 70;
+ 	text-align: center;
+ }
+
+ li {
+ 	display: inline-block;
+ 	color:  #802b00;
+ 	font-family: Montserrat;
+ 	font-size: 30px;
+ 	margin: 16px 20px;
+  	text-transform: uppercase;
+  	border-style: solid;
+  	border-width: 0 0 4px 0;
+  	border-color: #802b00;
+ }
+
+ .video {
+ 	position: relative;
+ 	left: 350px;
+ 	top: 100px;
+ }
