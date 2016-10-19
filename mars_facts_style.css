@@ -1,0 +1,40 @@
+* {
+	border: 4px hidden black;
+}
+
+@font-face {
+ 	font-family: Montserrat; src: url('fonts/Montserrat-Regular.ttf');
+ }
+
+.cover {
+	position: fixed;
+	z-index: 2;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: url(images/mars_facts_cover.jpg) no-repeat;
+	background-size: cover;
+}
+
+.title {
+	z-index: 100;
+	font-family: Montserrat;
+	color: White;
+	font-size: 80px;
+	position: relative;
+	left: 25%;
+	top: -	10%;
+}
+
+.image {
+	z-index: 100;
+	position: relative;
+	top: 10px;
+	width: 90%;
+	left: 25%;
+}
+
+.image img {
+	width: 60%;
+}
